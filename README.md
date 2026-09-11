@@ -24,6 +24,7 @@ Built with TensorFlow/Keras using MobileNetV2 as a frozen base for transfer lear
 ## Live demo
 
 The script includes a real-time classification mode using OpenCV — it captures webcam frames, runs them through the trained model, and displays the predicted class instantly. This demonstrates feasibility for applications like smart bins or mobile waste-sorting tools.
+🎥 **Walkthrough video:** https://drive.google.com/file/d/1knH1uowyDueHQjv9GZjNluZSMaWRB7B4/view?usp=drive_link
 
 ## Running it
 
