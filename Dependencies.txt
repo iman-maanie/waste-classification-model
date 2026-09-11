@@ -1,0 +1,16 @@
+Requirements to run project:
+
+tensorflow>=2.10
+keras==3.9.2
+numpy
+matplotlib
+seaborn
+opencv-python
+scikit-learn
+
+Note: keras==3.9.2 is pinned deliberately. Newer Keras versions have a bug
+loading this model (a Sequential model wrapping a pretrained MobileNetV2 as
+its first layer) that throws "Layer dense expects 1 input(s), but it
+received 2 input tensors" when calling load_model(). Pinning to 3.9.2 (the
+version this model was originally saved with) avoids it.
+
